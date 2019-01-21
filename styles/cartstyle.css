@@ -1,0 +1,392 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.sign-in{
+    width: 100%;
+    height:11px;
+    padding: 20px 0;
+    background-color: black;
+}
+.sign-in p{
+    float: right;
+    color: white;
+    font-size: 0.9rem;
+    margin: 0;
+    padding:0 20px;
+}
+.svg-icon{
+    display: inline-block;
+    max-width:2%;
+    padding-left: 10px;
+}
+
+.sign-in-user-form{
+    display: none;
+    position: absolute;
+    min-height: 450px;
+    max-width: 280px;
+    background-color:whitesmoke;
+    z-index:1;
+    right:150px;
+    box-shadow: 0px 38px 36px 0px rgba(0,0,0,0.2);
+    border-radius: 3px;
+
+}
+
+.forgot-pass{
+    color: black;
+    font-size: 12px;
+}
+.sign-up-user-form{
+    display:none;
+    position: absolute;
+    min-height: 450px;
+    max-width: 280px;
+    background-color:whitesmoke;
+    z-index:1;
+    right:60px;
+    box-shadow: 0px 38px 36px 0px rgba(0,0,0,0.2);
+    border-radius: 3px;
+
+}
+.user-logo img{
+    max-width:50px;
+}
+.user-logo{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.checkbox{
+    margin-left:30px;
+    display:inline-block;
+    width: 20px;
+}
+#sign-in-user{
+    font-size: 12px;
+    
+}
+.sign-in-user-form p,
+.sign-up-user-form p{
+    width: 85%;
+    font-size:11px;
+    padding-left:30px;
+}
+.sign-in-title{
+    padding-left:30px;
+}
+.log-in-inputs{
+    padding-left:30px;
+    caret-color:#FF1481; 
+}
+.inputs{
+    padding:8px;
+    width: 200px;
+}
+.sign-in-button{
+    display:block;
+    margin: 12px auto;
+    padding: 8px 45px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.2s;
+}
+.join a{
+    text-decoration: none;
+    color:white;
+}
+.sign-in-button:hover{
+    opacity:0.65;
+}
+
+.join{
+    background-color:#252525;
+    color:white;
+    padding: 9px 45px;
+    border:none;
+}
+
+#shopping-bag:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.1s ease;
+}
+
+#shopping-bag{
+    color: white;
+    float:left;
+    padding-left: 20px;
+    transition: 0.1s ease;
+}
+
+#shopping-bag:hover,
+.svg-icon:hover{
+    transform: scale(1.04);
+}
+
+.sign-in a{
+    text-decoration: none;
+    color: white;
+}
+#log-in:hover,
+ #account:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+        /* NAVIGATION BAR CSS */
+.container{
+    width: 85%;
+    margin:auto;
+    overflow: hidden;
+}
+        
+header{
+    background:whitesmoke;
+    color:black;
+    padding: 20px;
+    min-height: 40px;
+}
+        
+header .links{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+        
+        
+header li{
+    display: inline;
+    padding: 0 10px 0 10px;
+}
+        
+header #brand{
+     float: left;
+}
+        
+header #brand h1{
+     margin: 0;
+}
+        
+header nav{
+    float: right;
+    margin-top:20px;
+}
+        
+header .highlight{
+    color: #FF1481;
+    font-weight:bold;
+}
+        
+header .links:hover{
+    border-bottom: #e8491d solid 1px;
+    border-top: #e8491d solid 1px;          
+}
+        /* DROPDOWN CONTENT */
+.items {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content-2{
+    margin-left: 70px;
+    max-width: 80px;
+}
+
+.dropdown-content-3{
+    margin-left: 130px;
+    max-width: 150px;
+}
+.dropdown-content-4{
+    margin-left: 240px;
+    max-width: 180px;
+}
+.items a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+/* Change color of dropdown links on hover */
+.items a:hover {
+    background-color: #ddd;
+}
+/* Show the dropdown menu on hover */
+.dropdown-women:hover .items,
+.dropdown-men:hover .items,
+.dropdown-home:hover .items,
+.dropdown-access:hover .items {
+    display: block;
+}
+#logo-page{
+    font-size: 2rem;
+    padding-left: 27px;
+}
+ 
+
+    /* FOOTER STYLING */
+.footer-distributed{
+    background-color: #292c2f;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 55px 50px;
+    margin-top: 40px;
+}
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+.footer-distributed .footer-left{
+	width: 40%;
+}
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  #FF1481;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #FF1481;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:#FBC9CC;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+.fa-facebook:hover{
+    color: #3B5998;
+}
+.fa-twitter:hover{
+    color: #38A1F3;
+}
+.fa-pinterest:hover{
+    color:#BD081C;
+}
+.fa-instagram:hover{
+    color:#231F20;
+}
+
+@media screen and (max-width: 768px){
+    /* body{
+        background-color: #231F20;
+        opacity:0.2;
+    } */
+}
+
+

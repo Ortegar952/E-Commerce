@@ -1,0 +1,259 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Magic-Beans</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/style.css" />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/ico" href="images/bag-icon.png"/>
+</head>
+<body>
+    <div class="sign-in">
+        <div id="shopping-bag"><a href="#">SHOPPING BAG</a></div><img class="svg-icon" src="images/bags.png">
+        <p><span id="log-in">LOG IN </span> &#9679; <span id="account">CREATE ACCOUNT </span></p>
+    </div>
+    <div class="sign-in-user-form" id="myForm">
+        <h5 class="sign-in-title">Sign in</h5>
+        <p>Hi, To provide a more secure and pleasant fashion experience at Pink Era we ask you to keep your password private and not to share any 
+          sensitive information.
+       </p>
+        <h5 class="log-in-inputs">*Email: <br><input type="text" class="inputs" name="email" id="user-email"></h5>
+        <h5 class="log-in-inputs">*Password: <br><input type="password" class="inputs" name="password" id="user-password"></h5>
+        <input type="checkbox" class="checkbox"><label id="sign-in-user">Keep Me Sign In!</label> 
+        <button class="sign-in-button in">SIGN IN</button>
+        <hr width="180px">
+        <button class="sign-in-button join"><a href="">JOIN US</a></button>
+        <p><a href="" class="forgot-pass">Forgot Password ?</a></p>
+    </div>
+    <div class="sign-up-user-form" id="myForm-up">
+        <h5 class="sign-in-title">Sign up</h5>
+        <p>Hi, To provide a more secure and pleasant fashion experience at Pink Era we ask you to use an email address as your Username.
+        </p>
+        <div class="user-logo">
+        <img src="images/user-logo.png"> 
+        </div>
+        <h5 class="log-in-inputs">*Username: <br><input type="text" class="inputs" name="email" id="username1"></h5>
+        <h5 class="log-in-inputs">*Email: <br><input type="email" class="inputs" name="email" id="user-email1"></h5>
+        <h5 class="log-in-inputs">*Password: <br><input type="password" class="inputs" name="password" id="user-password1"></h5>
+        <h5 class="log-in-inputs">*Confirm Password: <br><input type="password" class="inputs" name="password" id="user-password-confirm"></h5>
+        <input type="checkbox" class="checkbox"><label id="sign-in-user">Remember Me!</label> 
+        <button class="sign-in-button in" id="sign-up">SIGN UP</button>
+        <hr width="180px">
+        <button class="sign-in-button join"><a href="">LOG IN</a></button>
+    </div>
+    <header>
+    <div class="container">
+            <div id="brand">
+                <h1><span class="highlight">Pink</span> Era</h1>
+            </div>
+            <nav>
+                <ul>
+                    <span class="dropdown-women">
+                        <li><a href="" class="links">WOMEN</a></li>
+                        <div class="dropdown-content-1 items">
+                            <a href="#">Tops</a>
+                            <a href="#">Jeans</a>
+                            <a href="#">Swimwears</a>
+                            <a href="#">Shorts</a>
+                            <a href="#">Dresses</a>
+                            <a href="#">Lingerie</a>
+                        </div>
+                    </span>
+                    <span class="dropdown-men">
+                            <li><a href="" class="links">MEN</a></li>
+                         <div class="dropdown-content-2 items">
+                            <a href="#">Tees</a>
+                            <a href="#">Jeans</a>
+                            <a href="#">Swimwears</a>
+                            <a href="#">Hoodies</a>
+                            <a href="#">Shorts</a>
+                            <a href="#">Sweaters</a>
+                        </div>
+                    </span>
+                    <span class="dropdown-home">
+                            <li><a href="" class="links">ERA HOME</a></li>
+                        <div class="dropdown-content-3 items">
+                            <a href="#">Blankets</a>
+                            <a href="#">Pillows</a>
+                            <a href="#">Bath Rugs</a>
+                            <a href="#">Decorations</a>
+                            <a href="#">GlassWare</a>
+                            <a href="#">Porcelain</a>
+                        </div>
+                    </span>
+                    <span class="dropdown-access">
+                            <li><a href="" class="links">ACCESSORIES</a></li>
+                        <div class="dropdown-content-4 items">
+                            <a href="#">Jewerly</a>
+                            <a href="#">Phone Cases</a>
+                            <a href="#">Earphones</a>
+                            <a href="#">Slippers</a>
+                            <a href="#">Gifts</a>
+                            <a href="#">Special Objects</a>
+                        </div>
+                    </span>
+                </ul>
+            </nav> 
+        </div>  
+        </header>
+    <div class="front-image">
+        <!-- <div class="title-front">
+                <h3>THE NEXT REVOLUTION - REVOLUTIONIZE CLOTHING</h3>
+        </div> -->
+    </div>
+    <div class="top-items">
+        <h2>Featured Items For Winter</h2>
+        <hr width="300px" id="blankline">
+    </div>
+
+    <div class="wrapper-items">
+        <div class="card-holder item-1">
+            <div class="image-holders">
+                <img class="images" src="images/clem-on.jpg">
+                <h3>ITEM NAME</h3>
+                <p>QUICK DESCRIPTION OF ITEM</p>
+                <p>$100.89</p>
+                <button id="add-cart">Add</button>
+            </div>
+        </div>
+
+        <div class="card-holder item-2">
+            <div class="image-holders">
+                <img class="images" src="images/daniel-.jpg">
+                <h3>ITEM NAME</h3>
+                <p>QUICK DESCRIPTION OF ITEM</p>
+                <p>$99.23</p>
+                <button id="add-cart">Add</button>
+            </div>
+        </div>
+
+        <div class="card-holder item-3">
+            <div class="image-holders">
+                <img class="images" src="images/lisanto.jpg">
+                <h3>ITEM NAME</h3>
+                <p>QUICK DESCRIPTION OF ITEM</p>
+                <p>$200.99</p>
+                <button id="add-cart">Add</button>
+            </div>
+        </div>
+        <div class="card-holder item-4">
+            <div class="image-holders">
+                <img class="images" src="images/annie.jpg">
+                <h3>ITEM NAME</h3>
+                <p>QUICK DESCRIPTION OF ITEM</p>
+                <p>$20.99</p>
+                <button id="add-cart">Add</button>
+            </div>
+        </div>
+        <div class="card-holder item-5">
+            <div class="image-holders">
+                <img class="images" src="images/igor-sergeyev.jpg">
+                <h3>ITEM NAME</h3>
+                <p>QUICK DESCRIPTION OF ITEM</p>
+                <p>$120.99</p>
+                <button id="add-cart">Add</button>
+            </div>
+        </div>
+        <div class="card-holder item-6">
+            <div class="image-holders">
+                <img class="images" src="images/chuttersnap.jpg">
+                <h3>ITEM NAME</h3>
+                <p>QUICK DESCRIPTION OF ITEM</p>
+                <p>$400.99</p>
+                <button id="add-cart">Add</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-us">
+        <div id="image-founder">
+                <img src="images/laura-.jpg" >
+        </div>
+        <div id="about-info">
+            <h3>About-Us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam minus deserunt saepe eos fuga, 
+            ratione nemo laboriosam cum fugiat. Assumenda?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, 
+            debitis officia! Sed, alias unde aliquam deserunt et, nostrum voluptatem id necessitatibus tempora tempore quo 
+            quas odio dolorum,distinctio ex praesentium. Assumenda?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, 
+            debitis officia! Sed, alias unde aliquam deserunt et, nostrum voluptatem id necessitatibus tempora tempore quo 
+            quas odio dolorum,distinctio ex praesentium.
+            </p>
+        </div>
+    </div>
+    <h4 class="title">Come and be a part of our world @realisationpar</h4>
+    <div  class="image-container">
+        <div class="gallery image-1">
+            <img src="images/anomaly.jpg">
+        </div>
+        <div class="gallery image-2">
+            <img src="images/brytny-.jpg">
+        </div>
+        <div class="gallery image-3">
+            <img src="images/ian-dooley.jpg">
+        </div>
+        <div class="gallery image-4">
+            <img src="images/eleni-kou.jpg">
+        </div>
+        <div class="gallery image-5">
+            <img src="images/charles-deluvio.jpg">
+        </div>
+    </div>
+
+    <div class="store-facts">
+        <h4></h4>
+        <div class="facts"></div>
+    </div>
+    		<!-- The content of your page would go here. -->
+
+    <footer class="footer-distributed">
+        <div class="footer-left">
+            <h3>Beans<span> Inc</span></h3>
+                <p class="footer-links">
+                    <a href="#">Blog</a>
+                    ·
+                    <a href="#">About</a>
+                    ·
+                    <a href="#">Faq</a>
+                    ·
+                    <a href="#">Contact</a>
+                </p>
+    
+            <p class="footer-company-name"> Beans Industries &copy; </p>
+        </div>
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Coming Soon..</span> New York, New York</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+1 555 123456</p>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:support@company.com">support@company.com</a></p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span>About the company</span>
+                Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+            </p>
+            <div class="footer-icons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-pinterest"></i></a>
+            </div>
+        </div>
+    </footer>
+
+<script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+<script type="text/javascript" src="JS/javascript.js"></script>
+</body>
+</html>
