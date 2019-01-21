@@ -6,7 +6,7 @@ function main(){
     $('#myForm-up').hide();
     $('#account').on("click",function(){
     $('#myForm-up').toggle();
-  })
+  });
   
 
  
@@ -48,10 +48,9 @@ function main(){
     // console.log(userPasswordconfirm);
     // console.log(userEmail);
     // console.log(userName);
-  })
+  });
 }
-  
-  $(document).ready(main)//making sure the site is ready before executing any 
+  $(document).ready(main);//making sure the site is ready before executing any 
                           //Jquery code the (main) callsback the function named main
                           //next keyword selects element right next to each other.
   
