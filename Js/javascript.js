@@ -10,28 +10,31 @@ function main(){
   
 
  
+      // ============================================
+      //       USER'S NAME && PASSWORD VALIDATION
+      // ============================================
 
-  $('#sign-up').on('click',function(){
-    let userName = $('#username1').val();
-    let userEmail = $('#user-email1').val();
-    let userPassword = $('#user-password1').val();
-    let userPasswordconfirm = $('#user-password-confirm').val();
+  // $('#sign-up').on('click',function(){
+  //   let userName = $('#username1').val();
+  //   let userEmail = $('#user-email1').val();
+  //   let userPassword = $('#user-password1').val();
+  //   let userPasswordconfirm = $('#user-password-confirm').val();
 
-    if(userEmail == '' || userName == '' || userPassword.length == ''){
-      window.alert('Please Fill In The Fields')
-    }
-    if(userPassword !== userPasswordconfirm){
-        window.alert("Make Sure Password is the Same !")
-    }
-    else if(userName !== userEmail){
-        window.alert("Make Sure userName Matches UserEmail");
-    }
-    else{
-       userName = $('#username1').val();
-       userEmail = $('#user-email1').val();
-       userPassword = $('#user-password1').val();
-       userPasswordconfirm = $('#user-password-confirm').val();
-    }
+  //   if(userEmail == '' || userName == '' || userPassword.length == ''){
+  //     window.alert('Please Fill In The Fields')
+  //   }
+  //   if(userPassword !== userPasswordconfirm){
+  //       window.alert("Make Sure Password is the Same !")
+  //   }
+  //   else if(userName !== userEmail){
+  //       window.alert("Make Sure userName Matches UserEmail");
+  //   }
+  //   else{
+  //      userName = $('#username1').val();
+  //      userEmail = $('#user-email1').val();
+  //      userPassword = $('#user-password1').val();
+  //      userPasswordconfirm = $('#user-password-confirm').val();
+  //   }
 
       // STILL LEARNING ABOUT LOCAL STORAGE TO SAVE USERNAME & PASSWORD
 
