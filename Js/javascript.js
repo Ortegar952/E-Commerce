@@ -51,8 +51,6 @@ function main(){
     // console.log(userPasswordconfirm);
     // console.log(userEmail);
     // console.log(userName);
-  });
-}
   $(document).ready(main);//making sure the site is ready before executing any 
                           //Jquery code the (main) callsback the function named main
                           //next keyword selects element right next to each other.
