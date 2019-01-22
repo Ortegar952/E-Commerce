@@ -1,16 +1,17 @@
 function main(){
     $('#myForm').hide();
+    $('#myForm-up').hide();
+
     $('#log-in').on("click",function(){
     $('#myForm').toggle();
-  });
-    $('#myForm-up').hide();
+    });
+
     $('#account').on("click",function(){
     $('#myForm-up').toggle();
-  });
+    })
+}
   
-
- 
-      // ============================================
+   // ============================================
       //       USER'S NAME && PASSWORD VALIDATION
       // ============================================
 
